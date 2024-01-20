@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import os
 # Load the trained model
 model = joblib.load('C:/Users/innovationcenter/Documents/itpkl/nov_model_new.pkl')  # Ganti dengan path sesuai dengan model yang telah dilatih
-
 # Function untuk memproses file audio dan membuat prediksi
 def proses_audio():
     # Membaca file audio
