@@ -11,7 +11,6 @@ import os
 
 # Load the trained model
 model = joblib.load('C:/Users/innovationcenter/Documents/itpkl/nov_model_new.pkl')
-
 # Initialize PyAudio
 audio = pyaudio.PyAudio()
 
