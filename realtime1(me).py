@@ -90,13 +90,13 @@ def analyze_audio():
     # print(prediction)
     # print("Model prediction:", label_dict[prediction[0]])
     if prediction == 0:
-        prediction_text = "NG"
+        # prediction_text = "NG"
         window.configure(background='red')
     else:
-        prediction_text = "OK"
+        # prediction_text = "OK"
         window.configure(background='green')
-    prediction_label = tk.Label(window, text=prediction_text)
-    prediction_label.pack()
+    # prediction_label = tk.Label(window, text=prediction_text)
+    # prediction_label.pack()
 
 # Function untuk memulai proses rekaman
 def start_recording():
