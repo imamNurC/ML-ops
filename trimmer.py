@@ -1,14 +1,17 @@
 import os
 from pydub import AudioSegment
 
-def trim_audio(input_file, output_file, start_time_ms, end_time_ms):
+def trim_audio(input_file, output_file, start_time_sec, end_time_sec):
+    start_time_ms = int(start_time_sec * 1000)
+    end_time_ms = int(end_time_sec * 1000)
+
     audio = AudioSegment.from_wav(input_file)
     trimmed_audio = audio[start_time_ms:end_time_ms]
     trimmed_audio.export(output_file, format="wav")
 
 def main():
-    input_folder = "ini/folder/asal"  # Tentukan folder input secara tetap
-    output_folder = "ini/folder/hasil"  # Tentukan folder output secara tetap
+    input_folder = "ini/folder/asal"
+    output_folder = "hasil"
 
     # Membuat folder output jika belum ada
     # if not os.path.exists(output_folder):
@@ -21,8 +24,8 @@ def main():
         input_file_path = os.path.join(input_folder, audio_file)
         output_file_path = os.path.join(output_folder, audio_file)
 
-        start_time = int(input(f"Masukkan start time untuk {audio_file} (dalam milidetik): "))
-        end_time = int(input(f"Masukkan end time untuk {audio_file} (dalam milidetik): "))
+        start_time = float(input(f"Masukkan start time untuk {audio_file} (dalam detik): "))
+        end_time = float(input(f"Masukkan end time untuk {audio_file} (dalam detik): "))
 
         # Membuat nama file output dengan folder yang sama
         output_folder_path = os.path.join(output_folder, audio_file)
