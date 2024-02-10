@@ -1,0 +1,41 @@
+{
+    "python.defaultInterpreterPath": "c:\\Users\\DELL\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "editor.cursorStyle": "block",
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "Linux Exec",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.confirmOnExit": "always",
+    "terminal.integrated.copyOnSelection": true,
+    "python.insidersChannel": "off",
+    "workbench.editorAssociations": {
+        "*.pyc": "default"
+    },
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "php.debug.executablePath": "",
+    "zenMode.hideActivityBar": false,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 1.3,
+    "editor.letterSpacing": 1,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 12,
+    "workbench.preferredHighContrastLightColorTheme": "Monokai Dimmed",
+    "editor.renderLineHighlight": "all",
+    "editor.codeActionsOnSave": {
+    
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.largeFileOptimizations": false,
+    "editor.fontFamily": "deJavu Sans Mono",
+    "workbench.startupEditor": "none",
+    "editor.minimap.showSlider": "always",
+    "terminal.integrated.fontFamily": "deJavu Sans Mono",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.letterSpacing": 1.9,
+    "terminal.integrated.fontWeight": "100",
+    "cloudcode.project": "capstone-project-405710"
+}
